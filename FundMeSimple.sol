@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: LGPL-2.0-or-higher
 
 // Smart contract that lets anyone deposit ETH into the contract
-// Only the owner of the contract can withdraw the ETH
+// SIMPLIFIED VERSION, NO ONE CAN WITHDRAW THE FUNDS
 pragma solidity ^0.6.0;
 
 // Get the latest ETH/USD price from chainlink price feed
@@ -15,3 +15,4 @@ contract FundMe {
         addressToAmountFunded[msg.sender] += msg.value;
     }
 }
+
