@@ -1,5 +1,4 @@
-from brownie import accounts, config, SimpleStorage
-import brownie.network as network
+from brownie import network, config, accounts, SimpleStorage
 
 
 def deploy_simple_storage():
