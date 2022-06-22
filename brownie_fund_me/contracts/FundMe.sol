@@ -23,7 +23,7 @@ contract FundMe {
     // the first person to deploy the contract is
     // the owner
     constructor(address _priceFeed) public {
-        priceFeed = AggregatorV3Interface(_priceFeed)
+        priceFeed = AggregatorV3Interface(_priceFeed);
         owner = msg.sender;
     }
 
