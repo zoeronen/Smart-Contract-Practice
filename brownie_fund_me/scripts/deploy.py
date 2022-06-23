@@ -3,6 +3,7 @@ from scripts.helpful_scripts import (
     get_account,
     deploy_mocks,
     LOCAL_BLOCKCHAIN_ENVIRONMENTS,
+    FORKED_LOCAL_ENVIRONMENTS,
 )
 
 
