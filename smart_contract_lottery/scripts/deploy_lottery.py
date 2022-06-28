@@ -44,7 +44,7 @@ def end_lottery():
     # end lottery
     ending_transaction = lottery.endLottery({"from": account})
     ending_transaction.wait(1)
-    time.sleep(60)
+    time.sleep(180)  # need to wait much longer on a testnet nowadays
     print(f"{lottery.recentWinner()} is our new winner!")
 
 
