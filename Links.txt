@@ -12,6 +12,7 @@ https://docs.aave.com/developers/v/2.0
 https://docs.gelato.network
 https://docs.openzeppelin.com/contracts/4.x/
 https://tailwindcss.com/docs
+https://hub.docker.com/r/trailofbits/eth-security-toolbox/dockerfile
 -->
 
 <-- Videos
@@ -19,6 +20,7 @@ https://www.youtube.com/watch?v=M576WGiDBdQ
 https://www.youtube.com/watch?v=gyMwXuJrbJQ
 https://www.youtube.com/watch?v=Wn_Kb3MR_cU
 https://www.youtube.com/watch?v=EhPeHeoKF88
+https://www.youtube.com/watch?v=TmZ8gH-toX0
 -->
 
 <-- Vulnerable Contracts
