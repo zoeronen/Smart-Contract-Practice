@@ -8,12 +8,13 @@ https://xbsoftware.com/blog/smart-contracts-use-cases
 -->
 
 <-- Frameworks & Documentation
+https://dev.sushi.com
 https://docs.aave.com/developers/v/2.0
 https://docs.gelato.network
 https://docs.openzeppelin.com/contracts/4.x
+https://docs.uniswap.org
 https://tailwindcss.com/docs
 https://hub.docker.com/r/trailofbits/eth-security-toolbox/dockerfile
-https://dev.sushi.com
 -->
 
 <-- Videos
