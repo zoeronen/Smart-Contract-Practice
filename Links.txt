@@ -9,21 +9,23 @@ https://xbsoftware.com/blog/smart-contracts-use-cases
 
 <-- Frameworks & Documentation
 https://compound.finance/docs
+https://dappuniversity.com/articles/solidity-tutorial
 https://dev.sushi.com
 https://docs.aave.com/developers/v/2.0
 https://docs.gelato.network
 https://docs.openzeppelin.com/contracts/4.x
 https://docs.uniswap.org
+https://ethereum.org/en/developers/tutorials/hello-world-smart-contract
 https://tailwindcss.com/docs
 https://hub.docker.com/r/trailofbits/eth-security-toolbox/dockerfile
 -->
 
 <-- Videos
-https://www.youtube.com/watch?v=M576WGiDBdQ
-https://www.youtube.com/watch?v=gyMwXuJrbJQ
-https://www.youtube.com/watch?v=Wn_Kb3MR_cU
-https://www.youtube.com/watch?v=EhPeHeoKF88
-https://www.youtube.com/watch?v=TmZ8gH-toX0
+https://youtube.com/watch?v=M576WGiDBdQ
+https://youtube.com/watch?v=gyMwXuJrbJQ
+https://youtube.com/watch?v=Wn_Kb3MR_cU
+https://youtube.com/watch?v=EhPeHeoKF88
+https://youtube.com/watch?v=TmZ8gH-toX0
 -->
 
 <-- Vulnerable Contracts
