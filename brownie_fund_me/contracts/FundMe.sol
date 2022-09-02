@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: LPGL-2.0-or-later
+// SPDX-License-Identifier: MIT
 
 // Smart contract that lets anyone deposit ETH into the contract
 // Only the owner of the contract can withdraw the ETH
