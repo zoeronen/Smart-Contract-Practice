@@ -12,6 +12,7 @@ https://compound.finance/docs
 https://dappuniversity.com/articles/solidity-tutorial
 https://dev.sushi.com
 https://docs.aave.com/developers/v/2.0
+https://docs.alchemy.com/reference/ethereum-developer-guide-to-the-merge
 https://docs.gelato.network
 https://docs.openzeppelin.com/contracts/4.x
 https://docs.uniswap.org
