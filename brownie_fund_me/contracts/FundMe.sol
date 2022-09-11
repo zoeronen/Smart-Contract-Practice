@@ -12,11 +12,11 @@ contract FundMe {
     // safe math library check uint256 for integer overflows
     using SafeMathChainlink for uint256;
 
-    //mapping to store which address deposited how much ETH
+    // mapping to store which address deposited how much ETH
     mapping(address => uint256) public addressToAmountFunded;
     // array of addresses who deposited
     address[] public funders;
-    //address of the owner (who deployed the contract)
+    // address of the owner (who deployed the contract)
     address public owner;
     AggregatorV3Interface public priceFeed;
 
@@ -30,17 +30,17 @@ contract FundMe {
     function fund() public payable {
         // 18 digit number to be compared with donated amount
         uint256 minimumUSD = 50 * 10**18;
-        //is the donated amount less than 50USD?
+        // is the donated amount less than 50USD?
         require(
             getConversionRate(msg.value) >= minimumUSD,
             "You need to spend more ETH!"
         );
-        //if not, add to mapping and funders array
+        // if not, add to mapping and funders array
         addressToAmountFunded[msg.sender] += msg.value;
         funders.push(msg.sender);
     }
 
-    //function to get the version of the chainlink pricefeed
+    // function to get the version of the chainlink pricefeed
     function getVersion() public view returns (uint256) {
         return priceFeed.version();
     }
@@ -71,9 +71,9 @@ contract FundMe {
         return (minimumUSD * precision) / price;
     }
 
-    //modifier: https://medium.com/coinmonks/solidity-tutorial-all-about-modifiers-a86cf81c14cb
+    // modifier: https://medium.com/coinmonks/solidity-tutorial-all-about-modifiers-a86cf81c14cb
     modifier onlyOwner() {
-        //is the message sender owner of the contract?
+        // is the message sender owner of the contract?
         require(msg.sender == owner);
 
         _;
@@ -88,8 +88,8 @@ contract FundMe {
         // payable(msg.sender).transfer(address(this).balance);
         msg.sender.transfer(address(this).balance);
 
-        //iterate through all the mappings and make them 0
-        //since all the deposited amount has been withdrawn
+        // iterate through all the mappings and make them 0
+        // since all the deposited amount has been withdrawn
         for (
             uint256 funderIndex = 0;
             funderIndex < funders.length;
@@ -98,7 +98,7 @@ contract FundMe {
             address funder = funders[funderIndex];
             addressToAmountFunded[funder] = 0;
         }
-        //funders array will be initialized to 0
+        // funders array will be initialized to 0
         funders = new address[](0);
     }
 }
