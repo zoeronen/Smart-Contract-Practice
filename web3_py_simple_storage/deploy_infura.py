@@ -43,7 +43,7 @@ abi = compiled_sol["contracts"]["SimpleStorage.sol"]["SimpleStorage"]["abi"]
 
 # Connect to rinkeby
 w3 = Web3(
-    Web3.HTTPProvider("https://rinkeby.infura.io/v3/4299354cf5634c96b4191a39303eb03a")
+    Web3.HTTPProvider("https://goerli.infura.io/v3/49a409b6cd8a40c5a83ca34538baa010")
 )
 chain_id = 4
 my_address = "0x36EE0a205B460b4567351549B7a631B7b801873e"
