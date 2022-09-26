@@ -27,12 +27,14 @@ https://youtube.com/watch?v=gyMwXuJrbJQ
 https://youtube.com/watch?v=Wn_Kb3MR_cU
 https://youtube.com/watch?v=EhPeHeoKF88
 https://youtube.com/watch?v=TmZ8gH-toX0
+https://youtube.com/watch?v=jS4aFq5-91M
 -->
 
 <-- Vulnerable Contracts
 https://github.com/PatrickAlphaC/hardhat-security-fcc/tree/main/contracts
 https://github.com/jspruance/block-explorer-tutorials/blob/main/smart-contracts/solidity/Lottery.sol
--->>
+-->
 
 <-- THE .ENV PLEDGE
 https://github.com/smartcontractkit/full-blockchain-solidity-course-js/discussions/5#discussion-4072059
+-->
