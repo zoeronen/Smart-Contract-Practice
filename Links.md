@@ -1,8 +1,8 @@
 ## Research
-https://consensys.github.io/smart-contract-best-practices
-https://gdatasoftware.com/blog/2020/12/36570-how-secure-are-smart-contracts
-https://iosiro.com/blog/smart-contract-security-pentesters
-https://leewayhertz.com/smart-contracts-security
+https://consensys.github.io/smart-contract-best-practices\
+https://gdatasoftware.com/blog/2020/12/36570-how-secure-are-smart-contracts\
+https://iosiro.com/blog/smart-contract-security-pentesters\
+https://leewayhertz.com/smart-contracts-security\
 https://secureum.substack.com/p/audit-techniques-and-tools-101
 
 
