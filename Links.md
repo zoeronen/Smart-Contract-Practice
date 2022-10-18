@@ -15,6 +15,10 @@ https://secureum.substack.com/p/audit-techniques-and-tools-101
 
 https://github.com/crytic/slither
 
+https://github.com/KadenZipfel/smart-contract-attack-vectors
+
+https://github.com/SmartContractSecurity/SWC-registry
+
 
 ## Frameworks & Documentation
 
