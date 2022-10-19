@@ -13,22 +13,26 @@ https://secureum.substack.com/p/audit-techniques-and-tools-101
 
 ## Auditing & Analysis
 
+https://github.com/crytic/echidna
+
 https://github.com/crytic/slither
 
 https://github.com/KadenZipfel/smart-contract-attack-vectors
 
 https://github.com/SmartContractSecurity/SWC-registry
 
+https://github.com/trailofbits/eth-security-toolbox
 
-## Frameworks & Documentation
+
+## Documentation
 
 https://compound.finance/docs
-
-https://dappuniversity.com/articles/solidity-tutorial
 
 https://dev.sushi.com
 
 https://docs.aave.com/developers/v/2.0
+
+https://docs.aave.com/developers/getting-started/readme *(v3.0)*
 
 https://docs.alchemy.com/reference/ethereum-developer-guide-to-the-merge
 
@@ -38,11 +42,7 @@ https://docs.openzeppelin.com/contracts/4.x
 
 https://docs.uniswap.org
 
-https://ethereum.org/en/developers/tutorials/hello-world-smart-contract
-
-https://tailwindcss.com/docs
-
-https://hub.docker.com/r/trailofbits/eth-security-toolbox/dockerfile
+https://ethereum.org/en/developers
 
 
 ## Videos
@@ -63,6 +63,8 @@ https://youtube.com/watch?v=4Mm3BCyHtDY
 
 
 ## Vulnerable Contracts
+
+https://github.com/crytic/not-so-smart-contracts
 
 https://github.com/PatrickAlphaC/hardhat-security-fcc/tree/main/contracts
 
