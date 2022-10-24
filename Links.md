@@ -15,6 +15,8 @@ https://secureum.substack.com/p/audit-techniques-and-tools-101
 
 ## Auditing & Analysis
 
+https://github.com/ConsenSys/surya
+
 https://github.com/crytic/echidna
 
 https://github.com/crytic/slither
