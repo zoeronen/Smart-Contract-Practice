@@ -2,6 +2,8 @@
 
 https://consensys.github.io/smart-contract-best-practices
 
+https://fravoll.github.io/solidity-patterns
+
 https://gdatasoftware.com/blog/2020/12/36570-how-secure-are-smart-contracts
 
 https://iosiro.com/blog/smart-contract-security-pentesters
